@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\3-checktreedata.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|solutionrelative:Project3\\3-checktreedata.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\2-treestacktraversal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|solutionrelative:Project3\\2-treestacktraversal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\1-arraylinktree.c.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|solutionrelative:Project3\\1-arraylinktree.c.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 182,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "2-treestacktraversal.c",
+              "DocumentMoniker": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\2-treestacktraversal.c",
+              "RelativeDocumentMoniker": "Project3\\2-treestacktraversal.c",
+              "ToolTip": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\2-treestacktraversal.c",
+              "RelativeToolTip": "Project3\\2-treestacktraversal.c",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAAAKgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-26T05:29:48.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "1-arraylinktree.c.c",
+              "DocumentMoniker": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\1-arraylinktree.c.c",
+              "RelativeDocumentMoniker": "Project3\\1-arraylinktree.c.c",
+              "ToolTip": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\1-arraylinktree.c.c",
+              "RelativeToolTip": "Project3\\1-arraylinktree.c.c",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAAAKkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-26T05:28:53.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "3-checktreedata.c",
+              "DocumentMoniker": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\3-checktreedata.c",
+              "RelativeDocumentMoniker": "Project3\\3-checktreedata.c",
+              "ToolTip": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\3-checktreedata.c",
+              "RelativeToolTip": "Project3\\3-checktreedata.c",
+<<<<<<< HEAD
+              "ViewState": "AQIAAHEAAAAAAAAAAAAAAJcAAABWAAAA",
+=======
+              "ViewState": "AQIAAIAAAAAAAAAAAAAAAJcAAABTAAAA",
+>>>>>>> a71aaa50d97148c4b5dd89d3320419aadd4a6b66
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-24T14:10:36.233Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
