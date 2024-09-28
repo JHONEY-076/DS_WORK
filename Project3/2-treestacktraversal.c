@@ -1,3 +1,5 @@
+// ìˆ˜ì •
+
 //#include <stdio.h>
 //#include <stdlib.h>
 //#define SIZE 20
@@ -75,23 +77,23 @@
 //    PlaceNode(root->right->right, 1, 15);
 //}
 //
-//// ¸µÅ© Æ®¸®±¸Á¶¿¡¼­ ½ºÅÃÀ» ÀÌ¿ëÇØ¼­ Çª½¬ÇÏ°í ÆËÀ» ÅëÇØ (ÀüÀ§¼øÈ¸·Î) Ãâ·ÂÇÏ´Â ÇÔ¼ö   
+//// ë§í¬ íŠ¸ë¦¬êµ¬ì¡°ì—ì„œ ìŠ¤íƒì„ ì´ìš©í•´ì„œ í‘¸ì‰¬í•˜ê³  íŒì„ í†µí•´ (ì „ìœ„ìˆœíšŒë¡œ) ì¶œë ¥í•˜ëŠ” í•¨ìˆ˜   
 //void LinkePreOrder(TreeNode* root) {
 //    if (root == NULL) return;
 //
-//    push(root); // ·çÆ® ³ëµå¸¦  Çª½¬ÇÑ´Ù.
-//    while (top >= 0) { // ½ºÅÃÀÇ Å¾ÀÌ 0ÀÌ µÉ¶§±îÁö ¹Ýº¹ 
-//        TreeNode* del = pop();      // del ³ëµå¸¦ ÆËÇÑ´Ù. 
+//    push(root); // ë£¨íŠ¸ ë…¸ë“œë¥¼  í‘¸ì‰¬í•œë‹¤.
+//    while (top >= 0) { // ìŠ¤íƒì˜ íƒ‘ì´ 0ì´ ë ë•Œê¹Œì§€ ë°˜ë³µ 
+//        TreeNode* del = pop();      // del ë…¸ë“œë¥¼ íŒí•œë‹¤. 
 //        if (del != NULL) {
-//            printf("visit(%2d)\n", del->data);  // del ³ëµå µ¥ÀÌÅÍ Ãâ·Â 
+//            printf("visit(%2d)\n", del->data);  // del ë…¸ë“œ ë°ì´í„° ì¶œë ¥ 
 //
-//            // ½ºÅÃÀº LIFO±¸Á¶ÀÌ±â ¶§¹®¿¡ ¿À¸¥ÂÊºÎÅÍ Çª½¬¸¦ ÇÏ¸é ¿À¸¥ÂÊÀÇ °ªÀº ³ªÁß¿¡ ºüÁ® ³ª¿À±â ¶§¹®¿¡ ¿À¸¥ÂÊºÎÅÍ Çª½¬ÇÏ´Â°Ô ¸ÂÀ½!! 
+//            // ìŠ¤íƒì€ LIFOêµ¬ì¡°ì´ê¸° ë•Œë¬¸ì— ì˜¤ë¥¸ìª½ë¶€í„° í‘¸ì‰¬ë¥¼ í•˜ë©´ ì˜¤ë¥¸ìª½ì˜ ê°’ì€ ë‚˜ì¤‘ì— ë¹ ì ¸ ë‚˜ì˜¤ê¸° ë•Œë¬¸ì— ì˜¤ë¥¸ìª½ë¶€í„° í‘¸ì‰¬í•˜ëŠ”ê²Œ ë§žìŒ!! 
 //
-//            if (del->right != NULL) {      // del->right·Î ÀÌµ¿ÇÏ°í Çª½¬ÇÑ´Ù.
+//            if (del->right != NULL) {      // del->rightë¡œ ì´ë™í•˜ê³  í‘¸ì‰¬í•œë‹¤.
 //                push(del->right);
 //            }
 //
-//            if (del->left != NULL) {    //del->left·Î ÀÌµ¿ÇÏ°í Çª½¬ÇÑ´Ù.
+//            if (del->left != NULL) {    //del->leftë¡œ ì´ë™í•˜ê³  í‘¸ì‰¬í•œë‹¤.
 //                push(del->left);
 //            }
 //
@@ -99,46 +101,46 @@
 //    }
 //}
 //
-//// ¸µÅ© Æ®¸®±¸Á¶¿¡¼­ ½ºÅÃÀ» ÀÌ¿ëÇØ¼­ Çª½¬ÇÏ°í ÆËÀ» ÅëÇØ (ÁßÀ§¼øÈ¸·Î) Ãâ·ÂÇÏ´Â ÇÔ¼ö  
+//// ë§í¬ íŠ¸ë¦¬êµ¬ì¡°ì—ì„œ ìŠ¤íƒì„ ì´ìš©í•´ì„œ í‘¸ì‰¬í•˜ê³  íŒì„ í†µí•´ (ì¤‘ìœ„ìˆœíšŒë¡œ) ì¶œë ¥í•˜ëŠ” í•¨ìˆ˜  
 //void LinkInOrder(TreeNode* root) {
 //    if (root == NULL) return;
 //
 //    TreeNode* current = root;
-//    while (current != NULL || top >= 0) {// current°¡ NULL¾Æ´Ï°Å³ª topÀÌ 0º¸´Ù ÀÛ´Ù¸é °è¼Ó ¹Ýº¹ÇÑ´Ù!!! 
-//        while (current != NULL) { // current°¡ NULLÀÌ ¾Æ´Ò¶§±îÁö  current ³ëµå¸¦ Çª½ÃÇÏ°í ¿ÞÂÊÀ¸·Î ÀÌµ¿À» ¹Ýº¹ 
+//    while (current != NULL || top >= 0) {// currentê°€ NULLì•„ë‹ˆê±°ë‚˜ topì´ 0ë³´ë‹¤ ìž‘ë‹¤ë©´ ê³„ì† ë°˜ë³µí•œë‹¤!!! 
+//        while (current != NULL) { // currentê°€ NULLì´ ì•„ë‹ë•Œê¹Œì§€  current ë…¸ë“œë¥¼ í‘¸ì‹œí•˜ê³  ì™¼ìª½ìœ¼ë¡œ ì´ë™ì„ ë°˜ë³µ 
 //            push(current);  
 //            current = current->left; 
 //        }
-//        current = pop(); // °è¼Ó ¿ÞÂÊÀ¸·Î °¡´Â while ¹®¿¡¼­ ³ª¿Í¼­ ¸¶Áö¸·¿¡ ÆËÇß´ø ³ëµå(ºÎ¸ð³ëµå)·Î µ¹¾Æ°¡´Â°÷!!!! 
-//        printf("visit(%2d)\n", current->data); //ÆËÇÑ current ³ëµå µ¥ÀÌÅÍ¸¦ Ãâ·ÂÇÑ´Ù.
+//        current = pop(); // ê³„ì† ì™¼ìª½ìœ¼ë¡œ ê°€ëŠ” while ë¬¸ì—ì„œ ë‚˜ì™€ì„œ ë§ˆì§€ë§‰ì— íŒí–ˆë˜ ë…¸ë“œ(ë¶€ëª¨ë…¸ë“œ)ë¡œ ëŒì•„ê°€ëŠ”ê³³!!!! 
+//        printf("visit(%2d)\n", current->data); //íŒí•œ current ë…¸ë“œ ë°ì´í„°ë¥¼ ì¶œë ¥í•œë‹¤.
 //
-//        current = current->right;   // current¸¦ ¿À¸¥ÂÊÀ¸·Î ÀÌµ¿
+//        current = current->right;   // currentë¥¼ ì˜¤ë¥¸ìª½ìœ¼ë¡œ ì´ë™
 //    }
 //}
 //
 //
-//// ¸µÅ© Æ®¸®±¸Á¶¿¡¼­ ½ºÅÃÀ» ÀÌ¿ëÇØ¼­ Çª½¬ÇÏ°í ÆËÀ» ÅëÇØ (ÈÄÀ§¼øÈ¸·Î) Ãâ·ÂÇÏ´Â ÇÔ¼ö  
+//// ë§í¬ íŠ¸ë¦¬êµ¬ì¡°ì—ì„œ ìŠ¤íƒì„ ì´ìš©í•´ì„œ í‘¸ì‰¬í•˜ê³  íŒì„ í†µí•´ (í›„ìœ„ìˆœíšŒë¡œ) ì¶œë ¥í•˜ëŠ” í•¨ìˆ˜  
 //void LinkPostOrder(TreeNode* root) {
 //    if (root == NULL) return;
 //
 //    TreeNode* current = root;
 //    TreeNode* lastVisited = NULL;
 //    while (top >= 0 || current != NULL) {
-//        //current°¡ NULLÀÌ ¾Æ´Ï¸é °è¼Ó ¿ÞÂÊÀ¸·Î ÀÌµ¿ÇÏ°í Çª½¬ÇÏ´Â °÷
+//        //currentê°€ NULLì´ ì•„ë‹ˆë©´ ê³„ì† ì™¼ìª½ìœ¼ë¡œ ì´ë™í•˜ê³  í‘¸ì‰¬í•˜ëŠ” ê³³
 //        if (current != NULL) {
 //            push(current);
 //            current = current->left;
 //        }
-//        else { // current°¡ NULLÀÏ °æ¿ì ½ÇÇàµÇ´Â °÷
-//            TreeNode* peekNode = peek(); // ÇöÀç ½ºÅÃÀÇ Å¾À» °¡Áö°í ¿À´Â°÷(ºÎ¸ð ³ëµå·Î µ¹¾Æ°¡´Â°÷)
+//        else { // currentê°€ NULLì¼ ê²½ìš° ì‹¤í–‰ë˜ëŠ” ê³³
+//            TreeNode* peekNode = peek(); // í˜„ìž¬ ìŠ¤íƒì˜ íƒ‘ì„ ê°€ì§€ê³  ì˜¤ëŠ”ê³³(ë¶€ëª¨ ë…¸ë“œë¡œ ëŒì•„ê°€ëŠ”ê³³)
 //
-//            if (peekNode->right != NULL && lastVisited != peekNode->right) { //peekNodeÀÇ ¿À¸¥ÂÊ ÀÚ½ÄÀÌ NULLÀÌ°Å³ª, ÀÌ¹Ì ¹æ¹®ÇÑ ³ëµå(lastVisited)°¡ ¾Æ´Ï¶ó¸é ¿À¸¥ÂÊÀ¸·Î ÀÌµ¿ÇÑ´Ù.!!
+//            if (peekNode->right != NULL && lastVisited != peekNode->right) { //peekNodeì˜ ì˜¤ë¥¸ìª½ ìžì‹ì´ NULLì´ê±°ë‚˜, ì´ë¯¸ ë°©ë¬¸í•œ ë…¸ë“œ(lastVisited)ê°€ ì•„ë‹ˆë¼ë©´ ì˜¤ë¥¸ìª½ìœ¼ë¡œ ì´ë™í•œë‹¤.!!
 //                current = peekNode->right;
 //            }
 //            else {
 //                pop();
-//                printf("visit(%2d)\n", peekNode->data); // pop()À¸·Î ³ëµå¸¦ ½ºÅÃ¿¡¼­ Á¦°ÅÇÏ±â Àü¿¡ ±× ³ëµåÀÇ Æ÷ÀÎÅÍ¸¦
-//                                                        //peekNode¿¡ ÀúÀåÇÏ±â ¶§¹®¿¡ popÇÑ µ¥ÀÌÅÍ¸¦ Ãâ·ÂÇÒ ¼ö ÀÖ´Â°ÍÀÌ´Ù.!!! 
+//                printf("visit(%2d)\n", peekNode->data); // pop()ìœ¼ë¡œ ë…¸ë“œë¥¼ ìŠ¤íƒì—ì„œ ì œê±°í•˜ê¸° ì „ì— ê·¸ ë…¸ë“œì˜ í¬ì¸í„°ë¥¼
+//                                                        //peekNodeì— ì €ìž¥í•˜ê¸° ë•Œë¬¸ì— popí•œ ë°ì´í„°ë¥¼ ì¶œë ¥í•  ìˆ˜ ìžˆëŠ”ê²ƒì´ë‹¤.!!! 
 //                lastVisited = peekNode;
 //            }
 //        }
