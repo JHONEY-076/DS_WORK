@@ -24,5 +24,11 @@
     <ClCompile Include="2-treestacktraversal.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="threadedBST.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="threadedBST1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
