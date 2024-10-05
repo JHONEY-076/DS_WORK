@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project1\\Project3\\threadedBST1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|solutionrelative:Project3\\threadedBST1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project1\\Project3\\threadedBST.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|solutionrelative:Project3\\threadedBST.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project1\\Project3\\3-checktreedata.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|solutionrelative:Project3\\3-checktreedata.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project1\\Project3\\1-arraylinktree.c.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|solutionrelative:Project3\\1-arraylinktree.c.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project1\\Project3\\threadedBST1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|solutionrelative:Project3\\threadedBST1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project1\\Project3\\threadedBST.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|solutionrelative:Project3\\threadedBST.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 217,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,19 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "threadedBST1.c",
               "DocumentMoniker": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project1\\Project3\\threadedBST1.c",
               "RelativeDocumentMoniker": "Project3\\threadedBST1.c",
               "ToolTip": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project1\\Project3\\threadedBST1.c",
               "RelativeToolTip": "Project3\\threadedBST1.c",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwIgAAAABAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-01T07:13:42.439Z"
+              "WhenOpened": "2024-10-01T07:13:42.439Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "2-treestacktraversal.c",
               "DocumentMoniker": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project1\\Project3\\2-treestacktraversal.c",
               "RelativeDocumentMoniker": "Project3\\2-treestacktraversal.c",
@@ -58,11 +59,12 @@
               "RelativeToolTip": "Project3\\2-treestacktraversal.c",
               "ViewState": "AQIAAJUAAAAAAAAAAAAAAFIAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-01T05:41:04.719Z"
+              "WhenOpened": "2024-10-01T05:41:04.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "1-arraylinktree.c.c",
               "DocumentMoniker": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project1\\Project3\\1-arraylinktree.c.c",
               "RelativeDocumentMoniker": "Project3\\1-arraylinktree.c.c",
@@ -74,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "3-checktreedata.c",
               "DocumentMoniker": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project1\\Project3\\3-checktreedata.c",
               "RelativeDocumentMoniker": "Project3\\3-checktreedata.c",
@@ -93,13 +95,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "threadedBST.c",
               "DocumentMoniker": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project1\\Project3\\threadedBST.c",
               "RelativeDocumentMoniker": "Project3\\threadedBST.c",
               "ToolTip": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project1\\Project3\\threadedBST.c",
               "RelativeToolTip": "Project3\\threadedBST.c",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAACEAAAAkAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAswEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-10-03T00:58:59.707Z",
               "EditorCaption": ""
