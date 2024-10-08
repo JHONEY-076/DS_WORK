@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\4-binarythread.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|solutionrelative:Project3\\4-binarythread.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\3-checktreedata.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|solutionrelative:Project3\\3-checktreedata.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\2-treestacktraversal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|solutionrelative:Project3\\2-treestacktraversal.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,8 +19,12 @@
       "RelativeMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|solutionrelative:Project3\\1-arraylinktree.c.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\3-checktreedata.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|solutionrelative:Project3\\3-checktreedata.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\threadedBST1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|solutionrelative:Project3\\threadedBST1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\threadedBST.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D4C0490-AFB5-4690-B407-FA99105B897D}|Project3\\Project3.vcxproj|solutionrelative:Project3\\threadedBST.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,6 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "4-binarythread.c",
+              "DocumentMoniker": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\4-binarythread.c",
+              "RelativeDocumentMoniker": "Project3\\4-binarythread.c",
+              "ToolTip": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\4-binarythread.c",
+              "RelativeToolTip": "Project3\\4-binarythread.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-08T01:31:26.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "3-checktreedata.c",
+              "DocumentMoniker": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\3-checktreedata.c",
+              "RelativeDocumentMoniker": "Project3\\3-checktreedata.c",
+              "ToolTip": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\3-checktreedata.c",
+              "RelativeToolTip": "Project3\\3-checktreedata.c",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAAAJcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-24T14:10:36.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "2-treestacktraversal.c",
               "DocumentMoniker": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\2-treestacktraversal.c",
               "RelativeDocumentMoniker": "Project3\\2-treestacktraversal.c",
@@ -43,27 +81,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "1-arraylinktree.c.c",
               "DocumentMoniker": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\1-arraylinktree.c.c",
               "RelativeDocumentMoniker": "Project3\\1-arraylinktree.c.c",
               "ToolTip": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\1-arraylinktree.c.c",
               "RelativeToolTip": "Project3\\1-arraylinktree.c.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKkAAAAAAAAA",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAKkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-26T05:28:53.772Z"
+              "WhenOpened": "2024-09-26T05:28:53.772Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "3-checktreedata.c",
-              "DocumentMoniker": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\3-checktreedata.c",
-              "RelativeDocumentMoniker": "Project3\\3-checktreedata.c",
-              "ToolTip": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\3-checktreedata.c",
-              "RelativeToolTip": "Project3\\3-checktreedata.c",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAAAJcAAAAMAAAA",
+              "DocumentIndex": 4,
+              "Title": "threadedBST1.c",
+              "DocumentMoniker": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\threadedBST1.c",
+              "RelativeDocumentMoniker": "Project3\\threadedBST1.c",
+              "ToolTip": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\threadedBST1.c",
+              "RelativeToolTip": "Project3\\threadedBST1.c",
+              "ViewState": "AQIAAPIAAAAAAAAAAAAAACgAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-24T14:10:36.233Z"
+              "WhenOpened": "2024-10-07T23:56:36.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "threadedBST.c",
+              "DocumentMoniker": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\threadedBST.c",
+              "RelativeDocumentMoniker": "Project3\\threadedBST.c",
+              "ToolTip": "C:\\Users\\\uCC44\uC7AC\uD5CC\\source\\repos\\Project3\\Project3\\threadedBST.c",
+              "RelativeToolTip": "Project3\\threadedBST.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-07T23:56:35.537Z",
+              "EditorCaption": ""
             }
           ]
         }
