@@ -101,67 +101,6 @@
 //}
 //
 //
-//void setPostorderThreads(TreeNode* root) {
-//    
-//    root->left->left->left->is_thread = 1;
-//    root->left->left->left->right = root->left->left->left->right;
-//
-//    root->left->left->left->right->is_thread = 1;
-//    root->left->left->left->right->right = root->left->left;
-//
-//    root->left->left->is_thread = 1;
-//    root->left->left->right = root->left->right->left;
-//
-//    root->left->right->left->is_thread = 1;
-//    root->left->right->left->right = root->left->right->right;
-//
-//    root->left->right->right->is_thread = 1;
-//    root->left->right->right->right = root->left->right;
-//
-//    root->left->right->is_thread = 1;
-//    root->left->right->right = root->left;
-//
-//    root->left->is_thread = 1;
-//    root->left->right = root->right->left->left;
-//
-//    root->right->left->left->is_thread = 1;
-//    root->right->left->left->right = root->right->left->right;
-//
-//    root->right->left->right->is_thread = 1;
-//    root->right->left->right->right = root->right->left;
-//
-//    root->right->left->is_thread = 1;
-//    root->right->left->right = root->right->right->left;
-//
-//    root->right->right->left->is_thread = 1;
-//    root->right->right->left->right = root->right->right->right;
-//
-//    root->right->right->right->is_thread = 1;
-//    root->right->right->right->right = root->right->right;
-//
-//    root->right->right->is_thread = 1;
-//    root->right->right->right = root->right;
-//
-//
-//    root->right->is_thread = 1;
-//    root->right->right = root;
-//
-//
-//}
-//
-//
-//TreeNode* Find_Post_SuccessorNode(TreeNode* node) {
-//    
-//    if (node->is_thread) {
-//        return node->right;
-//    }
-//    return NULL;
-//}
-//
-//
-//
-//
-//
 //
 //// 후속자 노드를 찾는 함수
 //TreeNode* Find_SuccessorNode(TreeNode* node) {
@@ -228,24 +167,6 @@
 //
 //}
 //
-//void thread_postorder(TreeNode* root) {
-//
-//    TreeNode* currentNode = root;
-//
-//    printf("\n Post-order Traversal: ");
-//
-//    while (currentNode != NULL) {
-//        currentNode = currentNode->left;
-//    }
-//
-//    while (currentNode != NULL) {
-//        printf("%d ", currentNode->data); // 현재 노드 데이터 출력
-//        currentNode = Find_Post_SuccessorNode(currentNode); // 후속자 노드 찾기 함수 호출
-//    }
-//
-//
-//
-//}
 //
 //
 //
@@ -259,12 +180,9 @@
 //
 //    GenerateLinkTree(root);
 //    thread_inorder(root);
-//    
-//    
 //    thread_preorder(root);
 //
-//    setPostorderThreads(root);
-//    thread_postorder(root);
+//    
 //
 //
 //    return 0;
