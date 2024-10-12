@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
       <FullPath>C:\Users\채재헌\source\repos\Project1\x64\Debug\Project3.exe</FullPath>
+=======
+      <FullPath>C:\Users\채재헌\source\repos\Project3\x64\Debug\Project3.exe</FullPath>
+>>>>>>> da186162fd39046eae15031a30c9dd46715314ea
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
