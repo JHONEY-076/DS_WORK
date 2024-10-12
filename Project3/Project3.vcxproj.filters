@@ -33,5 +33,8 @@
     <ClCompile Include="4-binarythread.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="5-maxheaptree.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

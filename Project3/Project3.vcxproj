@@ -131,6 +131,7 @@
     <ClCompile Include="3-checktreedata.c" />
     <ClCompile Include="1-arraylinktree.c.c" />
     <ClCompile Include="4-binarythread.c" />
+    <ClCompile Include="5-maxheaptree.c" />
     <ClCompile Include="threadedBST.c" />
     <ClCompile Include="threadedBST1.c" />
   </ItemGroup>
