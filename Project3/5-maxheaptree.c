@@ -31,6 +31,49 @@ void display_heap(TreeNode* h) {
 }
 
 
+// 초기화된 배열을 최대 힙에 노드를 추가하여 Heapfiy되는 함수(과정은 보여주지는 않는다)
+void InsertMaxHeapTree1(TreeNode* h, element data) {
+
+    //힙이 가득찬경우에 출력
+    if (h->heap_size >= MAX_SIZE - 1) {
+        printf("힙이 가득 찼습니다!\n");
+        return;
+    }
+
+    int i = h->heap_size + 1; // 힙 배열의 인덱스 1 부터 지정
+    int count = 0;  // 노드가 이동된 횟수를 카운트 해준다.
+
+
+
+    // 1. 값에 상관없이 노드를 삽입하는 곳
+    h->heap[i] = data;
+    (h->heap_size)++;
+   
+
+
+
+    // 2. 부모와 비교하며 Upheap을 진행시켜 완전 이진트리의 조건을 충족(heapfiy)시켜주는 곳
+
+    while ((i != 1) && (h->heap[i / 2].key < data.key)) { // i가 1이 아니고 해당 인덱스의 데이터가 부모의 값보다 클때까지 반복해준다!!
+
+        int parentIndex = i / 2; // 부모인덱스
+
+        // 부모를 자식 위치로 이동(SWAP)
+        element temp = h->heap[i];
+        h->heap[i] = h->heap[parentIndex];
+        h->heap[parentIndex] = temp;
+
+
+       
+        count++;// 노드가 이동된 횟수를 카운트 해준다.
+
+
+        i = parentIndex; // i를 부모 위치로 인덱스를 이동시킨다.
+    }
+
+   
+}
+
 
 // 최대 힙에 노드를 추가하고 heapfiy 되는 과정을 보여주는 함수
 void InsertMaxHeapTree(TreeNode* h, element data) {
@@ -86,7 +129,7 @@ TreeNode* generateMaxHeapTree(int inputData[], int size) {
     init_heap(heap); // 힙 초기화 
 
     for (int i = 0; i < size; i++) { // 배열에 들어있는 요소를 size만큼 insert해주는곳
-        InsertMaxHeapTree(heap, (element) { inputData[i] });
+        InsertMaxHeapTree1(heap, (element) { inputData[i] });
     }
 
     return heap; // 생성된 힙 리턴
